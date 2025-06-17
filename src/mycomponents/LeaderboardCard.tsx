@@ -11,7 +11,7 @@ const dummyData = [
 
 export default function LeaderboardCard() {
   return (
-    <Card className='w-full max-w-md rounded-2xl shadow-md bg-gradient-to-br from-matcha-300 via-matcha-400 to-matcha-300'>
+    <Card className='w-full rounded-2xl shadow-md bg-gradient-to-br from-matcha-300 via-matcha-400 to-matcha-300'>
       <CardContent>
         <h2 className='text-xl font-semibold mb-4 flex items-center gap-2'>
           <Users className='h-5 w-5' />

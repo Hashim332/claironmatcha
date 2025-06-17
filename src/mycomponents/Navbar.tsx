@@ -32,7 +32,7 @@ export default function Navbar() {
                 href='#about'
                 className='text-gray-600 hover:text-matcha-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
               >
-                About
+                Profile
               </a>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function Navbar() {
               className='text-gray-600 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200'
               onClick={() => setIsOpen(false)}
             >
-              About
+              Profile
             </a>
           </div>
         </div>

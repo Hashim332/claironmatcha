@@ -8,7 +8,7 @@ import InfoSection from "./mycomponents/InfoSection";
 
 function App() {
   return (
-    <>
+    <div className='sm:px-[25%]'>
       <Navbar />
       <div className='min-h-screen'>
         <HeroSection />
@@ -20,7 +20,7 @@ function App() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
