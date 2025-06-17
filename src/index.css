@@ -1,7 +1,23 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-inter: "inter", sans-serif;
+  --color-matcha-50: #f3f6ef;
+  --color-matcha-100: #e4eadd;
+  --color-matcha-200: #c0cfb2;
+  --color-matcha-300: #aabe98;
+  --color-matcha-400: #8ba576;
+  --color-matcha-500: #6e8959;
+  --color-matcha-600: #546c44;
+  --color-matcha-700: #425437;
+  --color-matcha-800: #384430;
+  --color-matcha-900: #313c2b;
+  --color-matcha-950: #181f14;
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -117,4 +133,9 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  margin-top: 4rem;
+  padding: 0px 16px;
 }
